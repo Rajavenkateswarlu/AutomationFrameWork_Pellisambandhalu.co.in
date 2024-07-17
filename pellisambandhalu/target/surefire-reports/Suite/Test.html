@@ -1,0 +1,264 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>37/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jul 15 18:11:04 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>19 seconds (19170 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData.verifyRegisterData()'><b>verifyRegisterData</b><br>Test class: com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData<br>Parameters: Kirankumar, KiranKumar24@gmail.com, kumar@24, Kkumar_24, Men, 9933445566</td>
+<td></td>
+<td>0</td>
+<td>com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20</td></tr>
+<tr>
+<td title='com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData.verifyEmpDetails()'><b>verifyEmpDetails</b><br>Test class: com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData<br>Parameters: Raja, Venkateswarlu, Test Engineer</td>
+<td></td>
+<td>0</td>
+<td>com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20</td></tr>
+<tr>
+<td title='com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData.verifyRegisterData()'><b>verifyRegisterData</b><br>Test class: com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData<br>Parameters: Venkateswarlu, venky12@gmail.com, venky@12, Venky_23, Men, 9977123459</td>
+<td></td>
+<td>0</td>
+<td>com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20</td></tr>
+<tr>
+<td title='com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData.verifyRegisterData()'><b>verifyRegisterData</b><br>Test class: com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData<br>Parameters: Priya, Priya25@gmail.com, priya@25, PriyaK_25, Women, 9676374726</td>
+<td></td>
+<td>0</td>
+<td>com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20</td></tr>
+<tr>
+<td title='com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData.verifyLogInDetails()'><b>verifyLogInDetails</b><br>Test class: com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData<br>Parameters: Raja8, Raja@2015</td>
+<td></td>
+<td>0</td>
+<td>com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20</td></tr>
+<tr>
+<td title='com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData.verifyRegisterData()'><b>verifyRegisterData</b><br>Test class: com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData<br>Parameters: Sreedevi, Sreedevi27@gmail.com, sreedevi@27, SreeDevi_27, Women, 9956765781</td>
+<td></td>
+<td>0</td>
+<td>com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20</td></tr>
+<tr>
+<td title='com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData.verifyRegisterData()'><b>verifyRegisterData</b><br>Test class: com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData<br>Parameters: Pavan, pavan26@gmail.com, Pavan@26, Pavan_26, Men, 9911223344</td>
+<td></td>
+<td>0</td>
+<td>com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20</td></tr>
+<tr>
+<td title='com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData.verifyRegisterData()'><b>verifyRegisterData</b><br>Test class: com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData<br>Parameters: Bindhu, Bindhu25@gmail.com, Bindhu@25, Bindhu_25, Women, 6354746365</td>
+<td></td>
+<td>0</td>
+<td>com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20</td></tr>
+<tr>
+<td title='com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData.verifyLogInDetails()'><b>verifyLogInDetails</b><br>Test class: com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData<br>Parameters: Raja4, Raja@2011</td>
+<td></td>
+<td>0</td>
+<td>com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20</td></tr>
+<tr>
+<td title='com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData.verifyRegisterData()'><b>verifyRegisterData</b><br>Test class: com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData<br>Parameters: Sindhu, Sindhu23@gmail.com, Sindhu@23, Sindhu_23, Women, 6203934567</td>
+<td></td>
+<td>0</td>
+<td>com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20</td></tr>
+<tr>
+<td title='com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData.verifyEmpDetails()'><b>verifyEmpDetails</b><br>Test class: com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData<br>Parameters: Bhanu, Sree, HrRequiter</td>
+<td></td>
+<td>0</td>
+<td>com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20</td></tr>
+<tr>
+<td title='com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData.verifyRegisterData()'><b>verifyRegisterData</b><br>Test class: com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData<br>Parameters: Harshith, Haritha27@gmail.com, Haritha@27, Harshitha_27, Women, 9988776757</td>
+<td></td>
+<td>0</td>
+<td>com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20</td></tr>
+<tr>
+<td title='com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData.verifyLogInDetails()'><b>verifyLogInDetails</b><br>Test class: com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData<br>Parameters: Raja2, Raja@2009</td>
+<td></td>
+<td>0</td>
+<td>com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20</td></tr>
+<tr>
+<td title='com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData.verifyLogInDetails()'><b>verifyLogInDetails</b><br>Test class: com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData<br>Parameters: Raja1, Raja@2008</td>
+<td></td>
+<td>0</td>
+<td>com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20</td></tr>
+<tr>
+<td title='com.pellisambandhalu.sanitytestcases.TC_003_VerifyScreenShotFunctionality.verifyScreenShotFunctionality()'><b>verifyScreenShotFunctionality</b><br>Test class: com.pellisambandhalu.sanitytestcases.TC_003_VerifyScreenShotFunctionality</td>
+<td></td>
+<td>0</td>
+<td>com.pellisambandhalu.sanitytestcases.TC_003_VerifyScreenShotFunctionality@3b0fe47a</td></tr>
+<tr>
+<td title='com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData.verifyLogInDetails()'><b>verifyLogInDetails</b><br>Test class: com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData<br>Parameters: Raja5, Raja@2012</td>
+<td></td>
+<td>0</td>
+<td>com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20</td></tr>
+<tr>
+<td title='com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData.verifyRegisterData()'><b>verifyRegisterData</b><br>Test class: com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData<br>Parameters: Goverdhan, goverdhan26@gmai.com, goverdhan@26, goverdhan_26, Men, 9977334567</td>
+<td></td>
+<td>0</td>
+<td>com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20</td></tr>
+<tr>
+<td title='com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData.verifyEmpDetails()'><b>verifyEmpDetails</b><br>Test class: com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData<br>Parameters: Krishna, Naidu, TeamLead</td>
+<td></td>
+<td>0</td>
+<td>com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20</td></tr>
+<tr>
+<td title='com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData.verifyRegisterData()'><b>verifyRegisterData</b><br>Test class: com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData<br>Parameters: Sunil, sunil22@gmail.com, sunil@22, Sunil_22, Men, 9988776651</td>
+<td></td>
+<td>0</td>
+<td>com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20</td></tr>
+<tr>
+<td title='com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData.verifyEmpDetails()'><b>verifyEmpDetails</b><br>Test class: com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData<br>Parameters: Goverdhan, Voddula, Test Engineer</td>
+<td></td>
+<td>0</td>
+<td>com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20</td></tr>
+<tr>
+<td title='com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData.verifyLogInDetails()'><b>verifyLogInDetails</b><br>Test class: com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData<br>Parameters: Raja6, Raja@2013</td>
+<td></td>
+<td>0</td>
+<td>com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20</td></tr>
+<tr>
+<td title='com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData.verifyLogInDetails()'><b>verifyLogInDetails</b><br>Test class: com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData<br>Parameters: Raja7, Raja@2014</td>
+<td></td>
+<td>0</td>
+<td>com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20</td></tr>
+<tr>
+<td title='com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData.verifyRegisterData()'><b>verifyRegisterData</b><br>Test class: com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData<br>Parameters: Priyanka, Priyanka25@gmail.com, Priyanka@25, Priyanka_25, Women, 6314567894</td>
+<td></td>
+<td>0</td>
+<td>com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20</td></tr>
+<tr>
+<td title='com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData.verifyRegisterData()'><b>verifyRegisterData</b><br>Test class: com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData<br>Parameters: Ram, ramk23@gmail.com, ram@23, Ram_22, Men, 9988123467</td>
+<td></td>
+<td>0</td>
+<td>com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20</td></tr>
+<tr>
+<td title='com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData.verifyRegisterData()'><b>verifyRegisterData</b><br>Test class: com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData<br>Parameters: Preethi, Preethi29@gmail.com, Preethi@29, Preethi_29, Women, 9157672531</td>
+<td></td>
+<td>0</td>
+<td>com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20</td></tr>
+<tr>
+<td title='com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData.verifyLogInDetails()'><b>verifyLogInDetails</b><br>Test class: com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData<br>Parameters: Raja3, Raja@2010</td>
+<td></td>
+<td>0</td>
+<td>com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20</td></tr>
+<tr>
+<td title='com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData.verifyRegisterData()'><b>verifyRegisterData</b><br>Test class: com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData<br>Parameters: Giridhar, giridhar27@gmail.com, Giridhar@27, Giri_27, Men, 9988776655</td>
+<td></td>
+<td>0</td>
+<td>com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20</td></tr>
+<tr>
+<td title='com.pellisambandhalu.sanitytestcases.TC_005_VerifyTheReportGeneration.reportGeneration()'><b>reportGeneration</b><br>Test class: com.pellisambandhalu.sanitytestcases.TC_005_VerifyTheReportGeneration</td>
+<td></td>
+<td>8</td>
+<td>com.pellisambandhalu.sanitytestcases.TC_005_VerifyTheReportGeneration@6574a52c</td></tr>
+<tr>
+<td title='com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData.verifyRegisterData()'><b>verifyRegisterData</b><br>Test class: com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData<br>Parameters: Raja, Raja1234@gmail.com, raja@123, Raja_24, Men, 9977997797</td>
+<td></td>
+<td>0</td>
+<td>com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20</td></tr>
+<tr>
+<td title='com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData.verifyRegisterData()'><b>verifyRegisterData</b><br>Test class: com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData<br>Parameters: Srikanth, srikanth23@gmail.com, srikanth@23, Srikanth_23, Men, 9954323498</td>
+<td></td>
+<td>0</td>
+<td>com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20</td></tr>
+<tr>
+<td title='com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData.verifyEmpDetails()'><b>verifyEmpDetails</b><br>Test class: com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData<br>Parameters: Anusha, A, Sr TesEngieer</td>
+<td></td>
+<td>0</td>
+<td>com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20</td></tr>
+<tr>
+<td title='com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData.verifyEmpDetails()'><b>verifyEmpDetails</b><br>Test class: com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData<br>Parameters: Venkateswarlu, Gadde, Sr TesEngieer</td>
+<td></td>
+<td>0</td>
+<td>com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20</td></tr>
+<tr>
+<td title='com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData.verifyRegisterData()'><b>verifyRegisterData</b><br>Test class: com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData<br>Parameters: Murali, Murali26@gmail.com, murali@26, Murali_26, Men, 9967645632</td>
+<td></td>
+<td>0</td>
+<td>com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20</td></tr>
+<tr>
+<td title='com.pellisambandhalu.sanitytestcases.TC_003_VerifyScreenShotFunctionality.getCurrentTime()'><b>getCurrentTime</b><br>Test class: com.pellisambandhalu.sanitytestcases.TC_003_VerifyScreenShotFunctionality</td>
+<td></td>
+<td>0</td>
+<td>com.pellisambandhalu.sanitytestcases.TC_003_VerifyScreenShotFunctionality@3b0fe47a</td></tr>
+<tr>
+<td title='com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData.verifyRegisterData()'><b>verifyRegisterData</b><br>Test class: com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData<br>Parameters: Praveenkumar, praveen26@gmail.com, praveen@26, PraveenKumar_26, Men, 6301234561</td>
+<td></td>
+<td>0</td>
+<td>com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20</td></tr>
+<tr>
+<td title='com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData.verifyEmpDetails()'><b>verifyEmpDetails</b><br>Test class: com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData<br>Parameters: SivaRammiReddy, Mettu, Test Engineer</td>
+<td></td>
+<td>0</td>
+<td>com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20</td></tr>
+<tr>
+<td title='com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData.verifyRegisterData()'><b>verifyRegisterData</b><br>Test class: com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData<br>Parameters: Hari, hari25@gmail.com, hari@25, Hari_25, Men, 9977556677</td>
+<td></td>
+<td>0</td>
+<td>com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20</td></tr>
+</table><p>
+</body>
+</html>
