@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="37" passed="37" failed="0" skipped="0">
+<testng-results ignored="0" total="38" passed="38" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-15T18:11:04 IST" name="Suite" finished-at="2024-07-15T18:11:23 IST" duration-ms="19170">
+  <suite started-at="2024-07-18T13:36:51 IST" name="Suite" finished-at="2024-07-18T13:37:12 IST" duration-ms="20451">
     <groups>
     </groups>
-    <test started-at="2024-07-15T18:11:04 IST" name="Test" finished-at="2024-07-15T18:11:23 IST" duration-ms="19170">
-      <class name="com.pellisambandhalu.sanitytestcases.TC_005_VerifyTheReportGeneration">
-        <test-method signature="reportGeneration()[pri:0, instance:com.pellisambandhalu.sanitytestcases.TC_005_VerifyTheReportGeneration@6574a52c]" started-at="2024-07-15T18:11:04 IST" name="reportGeneration" finished-at="2024-07-15T18:11:12 IST" duration-ms="8372" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reportGeneration -->
-      </class> <!-- com.pellisambandhalu.sanitytestcases.TC_005_VerifyTheReportGeneration -->
+    <test started-at="2024-07-18T13:36:51 IST" name="Test" finished-at="2024-07-18T13:37:12 IST" duration-ms="20451">
       <class name="com.pellisambandhalu.sanitytestcases.TC_003_VerifyScreenShotFunctionality">
-        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.pellisambandhalu.sanitytestcases.TC_003_VerifyScreenShotFunctionality@3b0fe47a]" started-at="2024-07-15T18:11:18 IST" name="setUpBrowser" finished-at="2024-07-15T18:11:22 IST" duration-ms="3988" status="PASS">
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.pellisambandhalu.sanitytestcases.TC_003_VerifyScreenShotFunctionality@235ecd9f]" started-at="2024-07-18T13:37:08 IST" name="setUpBrowser" finished-at="2024-07-18T13:37:11 IST" duration-ms="3514" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method signature="getCurrentTime()[pri:0, instance:com.pellisambandhalu.sanitytestcases.TC_003_VerifyScreenShotFunctionality@3b0fe47a]" started-at="2024-07-15T18:11:22 IST" name="getCurrentTime" finished-at="2024-07-15T18:11:22 IST" duration-ms="2" status="PASS">
+        <test-method signature="getCurrentTime()[pri:0, instance:com.pellisambandhalu.sanitytestcases.TC_003_VerifyScreenShotFunctionality@235ecd9f]" started-at="2024-07-18T13:37:11 IST" name="getCurrentTime" finished-at="2024-07-18T13:37:11 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getCurrentTime -->
-        <test-method signature="verifyScreenShotFunctionality()[pri:0, instance:com.pellisambandhalu.sanitytestcases.TC_003_VerifyScreenShotFunctionality@3b0fe47a]" started-at="2024-07-15T18:11:23 IST" name="verifyScreenShotFunctionality" finished-at="2024-07-15T18:11:23 IST" duration-ms="347" status="PASS">
+        <test-method signature="verifyScreenShotFunctionality()[pri:0, instance:com.pellisambandhalu.sanitytestcases.TC_003_VerifyScreenShotFunctionality@235ecd9f]" started-at="2024-07-18T13:37:11 IST" name="verifyScreenShotFunctionality" finished-at="2024-07-18T13:37:12 IST" duration-ms="243" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyScreenShotFunctionality -->
       </class> <!-- com.pellisambandhalu.sanitytestcases.TC_003_VerifyScreenShotFunctionality -->
+      <class name="com.pellisambandhalu.sanitytestcases.TC_005_VerifyTheReportGeneration">
+        <test-method signature="reportGeneration()[pri:0, instance:com.pellisambandhalu.sanitytestcases.TC_005_VerifyTheReportGeneration@1c7696c6]" started-at="2024-07-18T13:36:51 IST" name="reportGeneration" finished-at="2024-07-18T13:37:01 IST" duration-ms="9910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportGeneration -->
+      </class> <!-- com.pellisambandhalu.sanitytestcases.TC_005_VerifyTheReportGeneration -->
       <class name="com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData">
-        <test-method signature="verifyRegisterData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20]" started-at="2024-07-15T18:11:14 IST" name="verifyRegisterData" data-provider="RegistrationData" finished-at="2024-07-15T18:11:14 IST" duration-ms="0" status="PASS">
+        <test-method signature="verifyRegisterData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@46cdf8bd]" started-at="2024-07-18T13:37:03 IST" name="verifyRegisterData" data-provider="RegistrationData" finished-at="2024-07-18T13:37:03 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -63,7 +63,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterData -->
-        <test-method signature="verifyRegisterData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20]" started-at="2024-07-15T18:11:14 IST" name="verifyRegisterData" data-provider="RegistrationData" finished-at="2024-07-15T18:11:14 IST" duration-ms="0" status="PASS">
+        <test-method signature="verifyRegisterData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@46cdf8bd]" started-at="2024-07-18T13:37:03 IST" name="verifyRegisterData" data-provider="RegistrationData" finished-at="2024-07-18T13:37:03 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -99,7 +99,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterData -->
-        <test-method signature="verifyRegisterData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20]" started-at="2024-07-15T18:11:14 IST" name="verifyRegisterData" data-provider="RegistrationData" finished-at="2024-07-15T18:11:14 IST" duration-ms="0" status="PASS">
+        <test-method signature="verifyRegisterData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@46cdf8bd]" started-at="2024-07-18T13:37:03 IST" name="verifyRegisterData" data-provider="RegistrationData" finished-at="2024-07-18T13:37:03 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -135,7 +135,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterData -->
-        <test-method signature="verifyRegisterData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20]" started-at="2024-07-15T18:11:14 IST" name="verifyRegisterData" data-provider="RegistrationData" finished-at="2024-07-15T18:11:14 IST" duration-ms="0" status="PASS">
+        <test-method signature="verifyRegisterData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@46cdf8bd]" started-at="2024-07-18T13:37:03 IST" name="verifyRegisterData" data-provider="RegistrationData" finished-at="2024-07-18T13:37:03 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -171,7 +171,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterData -->
-        <test-method signature="verifyRegisterData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20]" started-at="2024-07-15T18:11:14 IST" name="verifyRegisterData" data-provider="RegistrationData" finished-at="2024-07-15T18:11:14 IST" duration-ms="2" status="PASS">
+        <test-method signature="verifyRegisterData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@46cdf8bd]" started-at="2024-07-18T13:37:03 IST" name="verifyRegisterData" data-provider="RegistrationData" finished-at="2024-07-18T13:37:03 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -207,7 +207,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterData -->
-        <test-method signature="verifyRegisterData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20]" started-at="2024-07-15T18:11:15 IST" name="verifyRegisterData" data-provider="RegistrationData" finished-at="2024-07-15T18:11:15 IST" duration-ms="1" status="PASS">
+        <test-method signature="verifyRegisterData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@46cdf8bd]" started-at="2024-07-18T13:37:03 IST" name="verifyRegisterData" data-provider="RegistrationData" finished-at="2024-07-18T13:37:03 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -243,7 +243,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterData -->
-        <test-method signature="verifyRegisterData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20]" started-at="2024-07-15T18:11:15 IST" name="verifyRegisterData" data-provider="RegistrationData" finished-at="2024-07-15T18:11:15 IST" duration-ms="1" status="PASS">
+        <test-method signature="verifyRegisterData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@46cdf8bd]" started-at="2024-07-18T13:37:03 IST" name="verifyRegisterData" data-provider="RegistrationData" finished-at="2024-07-18T13:37:03 IST" duration-ms="5" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -279,7 +279,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterData -->
-        <test-method signature="verifyRegisterData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20]" started-at="2024-07-15T18:11:15 IST" name="verifyRegisterData" data-provider="RegistrationData" finished-at="2024-07-15T18:11:15 IST" duration-ms="1" status="PASS">
+        <test-method signature="verifyRegisterData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@46cdf8bd]" started-at="2024-07-18T13:37:04 IST" name="verifyRegisterData" data-provider="RegistrationData" finished-at="2024-07-18T13:37:04 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -315,7 +315,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterData -->
-        <test-method signature="verifyRegisterData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20]" started-at="2024-07-15T18:11:15 IST" name="verifyRegisterData" data-provider="RegistrationData" finished-at="2024-07-15T18:11:15 IST" duration-ms="0" status="PASS">
+        <test-method signature="verifyRegisterData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@46cdf8bd]" started-at="2024-07-18T13:37:04 IST" name="verifyRegisterData" data-provider="RegistrationData" finished-at="2024-07-18T13:37:04 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -351,7 +351,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterData -->
-        <test-method signature="verifyRegisterData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20]" started-at="2024-07-15T18:11:15 IST" name="verifyRegisterData" data-provider="RegistrationData" finished-at="2024-07-15T18:11:15 IST" duration-ms="0" status="PASS">
+        <test-method signature="verifyRegisterData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@46cdf8bd]" started-at="2024-07-18T13:37:04 IST" name="verifyRegisterData" data-provider="RegistrationData" finished-at="2024-07-18T13:37:04 IST" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -387,7 +387,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterData -->
-        <test-method signature="verifyRegisterData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20]" started-at="2024-07-15T18:11:15 IST" name="verifyRegisterData" data-provider="RegistrationData" finished-at="2024-07-15T18:11:15 IST" duration-ms="1" status="PASS">
+        <test-method signature="verifyRegisterData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@46cdf8bd]" started-at="2024-07-18T13:37:04 IST" name="verifyRegisterData" data-provider="RegistrationData" finished-at="2024-07-18T13:37:04 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -423,7 +423,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterData -->
-        <test-method signature="verifyRegisterData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20]" started-at="2024-07-15T18:11:15 IST" name="verifyRegisterData" data-provider="RegistrationData" finished-at="2024-07-15T18:11:15 IST" duration-ms="0" status="PASS">
+        <test-method signature="verifyRegisterData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@46cdf8bd]" started-at="2024-07-18T13:37:04 IST" name="verifyRegisterData" data-provider="RegistrationData" finished-at="2024-07-18T13:37:04 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -459,7 +459,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterData -->
-        <test-method signature="verifyRegisterData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20]" started-at="2024-07-15T18:11:16 IST" name="verifyRegisterData" data-provider="RegistrationData" finished-at="2024-07-15T18:11:16 IST" duration-ms="0" status="PASS">
+        <test-method signature="verifyRegisterData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@46cdf8bd]" started-at="2024-07-18T13:37:04 IST" name="verifyRegisterData" data-provider="RegistrationData" finished-at="2024-07-18T13:37:04 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -495,7 +495,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterData -->
-        <test-method signature="verifyRegisterData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20]" started-at="2024-07-15T18:11:16 IST" name="verifyRegisterData" data-provider="RegistrationData" finished-at="2024-07-15T18:11:16 IST" duration-ms="0" status="PASS">
+        <test-method signature="verifyRegisterData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@46cdf8bd]" started-at="2024-07-18T13:37:05 IST" name="verifyRegisterData" data-provider="RegistrationData" finished-at="2024-07-18T13:37:05 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -531,7 +531,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterData -->
-        <test-method signature="verifyRegisterData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20]" started-at="2024-07-15T18:11:16 IST" name="verifyRegisterData" data-provider="RegistrationData" finished-at="2024-07-15T18:11:16 IST" duration-ms="0" status="PASS">
+        <test-method signature="verifyRegisterData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@46cdf8bd]" started-at="2024-07-18T13:37:05 IST" name="verifyRegisterData" data-provider="RegistrationData" finished-at="2024-07-18T13:37:05 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -567,7 +567,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterData -->
-        <test-method signature="verifyRegisterData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20]" started-at="2024-07-15T18:11:16 IST" name="verifyRegisterData" data-provider="RegistrationData" finished-at="2024-07-15T18:11:16 IST" duration-ms="1" status="PASS">
+        <test-method signature="verifyRegisterData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@46cdf8bd]" started-at="2024-07-18T13:37:05 IST" name="verifyRegisterData" data-provider="RegistrationData" finished-at="2024-07-18T13:37:05 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -603,7 +603,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterData -->
-        <test-method signature="verifyRegisterData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20]" started-at="2024-07-15T18:11:16 IST" name="verifyRegisterData" data-provider="RegistrationData" finished-at="2024-07-15T18:11:16 IST" duration-ms="1" status="PASS">
+        <test-method signature="verifyRegisterData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@46cdf8bd]" started-at="2024-07-18T13:37:05 IST" name="verifyRegisterData" data-provider="RegistrationData" finished-at="2024-07-18T13:37:05 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -639,7 +639,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterData -->
-        <test-method signature="verifyRegisterData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20]" started-at="2024-07-15T18:11:16 IST" name="verifyRegisterData" data-provider="RegistrationData" finished-at="2024-07-15T18:11:16 IST" duration-ms="0" status="PASS">
+        <test-method signature="verifyRegisterData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@46cdf8bd]" started-at="2024-07-18T13:37:05 IST" name="verifyRegisterData" data-provider="RegistrationData" finished-at="2024-07-18T13:37:05 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -675,7 +675,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterData -->
-        <test-method signature="verifyRegisterData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20]" started-at="2024-07-15T18:11:16 IST" name="verifyRegisterData" data-provider="RegistrationData" finished-at="2024-07-15T18:11:16 IST" duration-ms="0" status="PASS">
+        <test-method signature="verifyRegisterData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@46cdf8bd]" started-at="2024-07-18T13:37:05 IST" name="verifyRegisterData" data-provider="RegistrationData" finished-at="2024-07-18T13:37:05 IST" duration-ms="5" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -711,7 +711,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterData -->
-        <test-method signature="verifyLogInDetails(java.lang.String,java.lang.String)[pri:2, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20]" started-at="2024-07-15T18:11:17 IST" name="verifyLogInDetails" data-provider="LoginData" finished-at="2024-07-15T18:11:17 IST" duration-ms="1" status="PASS">
+        <test-method signature="verifyLogInDetails(java.lang.String,java.lang.String)[pri:2, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@46cdf8bd]" started-at="2024-07-18T13:37:05 IST" name="verifyLogInDetails" data-provider="LoginData" finished-at="2024-07-18T13:37:05 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -727,7 +727,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogInDetails -->
-        <test-method signature="verifyLogInDetails(java.lang.String,java.lang.String)[pri:2, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20]" started-at="2024-07-15T18:11:17 IST" name="verifyLogInDetails" data-provider="LoginData" finished-at="2024-07-15T18:11:17 IST" duration-ms="1" status="PASS">
+        <test-method signature="verifyLogInDetails(java.lang.String,java.lang.String)[pri:2, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@46cdf8bd]" started-at="2024-07-18T13:37:06 IST" name="verifyLogInDetails" data-provider="LoginData" finished-at="2024-07-18T13:37:06 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -743,7 +743,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogInDetails -->
-        <test-method signature="verifyLogInDetails(java.lang.String,java.lang.String)[pri:2, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20]" started-at="2024-07-15T18:11:17 IST" name="verifyLogInDetails" data-provider="LoginData" finished-at="2024-07-15T18:11:17 IST" duration-ms="1" status="PASS">
+        <test-method signature="verifyLogInDetails(java.lang.String,java.lang.String)[pri:2, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@46cdf8bd]" started-at="2024-07-18T13:37:06 IST" name="verifyLogInDetails" data-provider="LoginData" finished-at="2024-07-18T13:37:06 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -759,7 +759,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogInDetails -->
-        <test-method signature="verifyLogInDetails(java.lang.String,java.lang.String)[pri:2, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20]" started-at="2024-07-15T18:11:17 IST" name="verifyLogInDetails" data-provider="LoginData" finished-at="2024-07-15T18:11:17 IST" duration-ms="0" status="PASS">
+        <test-method signature="verifyLogInDetails(java.lang.String,java.lang.String)[pri:2, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@46cdf8bd]" started-at="2024-07-18T13:37:06 IST" name="verifyLogInDetails" data-provider="LoginData" finished-at="2024-07-18T13:37:06 IST" duration-ms="5" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -775,7 +775,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogInDetails -->
-        <test-method signature="verifyLogInDetails(java.lang.String,java.lang.String)[pri:2, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20]" started-at="2024-07-15T18:11:17 IST" name="verifyLogInDetails" data-provider="LoginData" finished-at="2024-07-15T18:11:17 IST" duration-ms="1" status="PASS">
+        <test-method signature="verifyLogInDetails(java.lang.String,java.lang.String)[pri:2, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@46cdf8bd]" started-at="2024-07-18T13:37:06 IST" name="verifyLogInDetails" data-provider="LoginData" finished-at="2024-07-18T13:37:06 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -791,7 +791,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogInDetails -->
-        <test-method signature="verifyLogInDetails(java.lang.String,java.lang.String)[pri:2, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20]" started-at="2024-07-15T18:11:17 IST" name="verifyLogInDetails" data-provider="LoginData" finished-at="2024-07-15T18:11:17 IST" duration-ms="1" status="PASS">
+        <test-method signature="verifyLogInDetails(java.lang.String,java.lang.String)[pri:2, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@46cdf8bd]" started-at="2024-07-18T13:37:06 IST" name="verifyLogInDetails" data-provider="LoginData" finished-at="2024-07-18T13:37:06 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -807,7 +807,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogInDetails -->
-        <test-method signature="verifyLogInDetails(java.lang.String,java.lang.String)[pri:2, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20]" started-at="2024-07-15T18:11:17 IST" name="verifyLogInDetails" data-provider="LoginData" finished-at="2024-07-15T18:11:17 IST" duration-ms="0" status="PASS">
+        <test-method signature="verifyLogInDetails(java.lang.String,java.lang.String)[pri:2, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@46cdf8bd]" started-at="2024-07-18T13:37:06 IST" name="verifyLogInDetails" data-provider="LoginData" finished-at="2024-07-18T13:37:06 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -823,7 +823,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogInDetails -->
-        <test-method signature="verifyLogInDetails(java.lang.String,java.lang.String)[pri:2, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20]" started-at="2024-07-15T18:11:17 IST" name="verifyLogInDetails" data-provider="LoginData" finished-at="2024-07-15T18:11:17 IST" duration-ms="0" status="PASS">
+        <test-method signature="verifyLogInDetails(java.lang.String,java.lang.String)[pri:2, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@46cdf8bd]" started-at="2024-07-18T13:37:06 IST" name="verifyLogInDetails" data-provider="LoginData" finished-at="2024-07-18T13:37:06 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -839,7 +839,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogInDetails -->
-        <test-method signature="verifyEmpDetails(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20]" started-at="2024-07-15T18:11:18 IST" name="verifyEmpDetails" data-provider="Emp" finished-at="2024-07-15T18:11:18 IST" duration-ms="0" status="PASS">
+        <test-method signature="verifyEmpDetails(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@46cdf8bd]" started-at="2024-07-18T13:37:07 IST" name="verifyEmpDetails" data-provider="Emp" finished-at="2024-07-18T13:37:07 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -860,7 +860,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyEmpDetails -->
-        <test-method signature="verifyEmpDetails(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20]" started-at="2024-07-15T18:11:18 IST" name="verifyEmpDetails" data-provider="Emp" finished-at="2024-07-15T18:11:18 IST" duration-ms="1" status="PASS">
+        <test-method signature="verifyEmpDetails(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@46cdf8bd]" started-at="2024-07-18T13:37:07 IST" name="verifyEmpDetails" data-provider="Emp" finished-at="2024-07-18T13:37:07 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -881,7 +881,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyEmpDetails -->
-        <test-method signature="verifyEmpDetails(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20]" started-at="2024-07-15T18:11:18 IST" name="verifyEmpDetails" data-provider="Emp" finished-at="2024-07-15T18:11:18 IST" duration-ms="1" status="PASS">
+        <test-method signature="verifyEmpDetails(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@46cdf8bd]" started-at="2024-07-18T13:37:07 IST" name="verifyEmpDetails" data-provider="Emp" finished-at="2024-07-18T13:37:07 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -902,7 +902,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyEmpDetails -->
-        <test-method signature="verifyEmpDetails(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20]" started-at="2024-07-15T18:11:18 IST" name="verifyEmpDetails" data-provider="Emp" finished-at="2024-07-15T18:11:18 IST" duration-ms="1" status="PASS">
+        <test-method signature="verifyEmpDetails(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@46cdf8bd]" started-at="2024-07-18T13:37:07 IST" name="verifyEmpDetails" data-provider="Emp" finished-at="2024-07-18T13:37:07 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -923,7 +923,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyEmpDetails -->
-        <test-method signature="verifyEmpDetails(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20]" started-at="2024-07-15T18:11:18 IST" name="verifyEmpDetails" data-provider="Emp" finished-at="2024-07-15T18:11:18 IST" duration-ms="0" status="PASS">
+        <test-method signature="verifyEmpDetails(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@46cdf8bd]" started-at="2024-07-18T13:37:07 IST" name="verifyEmpDetails" data-provider="Emp" finished-at="2024-07-18T13:37:07 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -944,7 +944,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyEmpDetails -->
-        <test-method signature="verifyEmpDetails(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20]" started-at="2024-07-15T18:11:18 IST" name="verifyEmpDetails" data-provider="Emp" finished-at="2024-07-15T18:11:18 IST" duration-ms="0" status="PASS">
+        <test-method signature="verifyEmpDetails(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@46cdf8bd]" started-at="2024-07-18T13:37:07 IST" name="verifyEmpDetails" data-provider="Emp" finished-at="2024-07-18T13:37:07 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -965,7 +965,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyEmpDetails -->
-        <test-method signature="verifyEmpDetails(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@298a5e20]" started-at="2024-07-15T18:11:18 IST" name="verifyEmpDetails" data-provider="Emp" finished-at="2024-07-15T18:11:18 IST" duration-ms="0" status="PASS">
+        <test-method signature="verifyEmpDetails(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData@46cdf8bd]" started-at="2024-07-18T13:37:07 IST" name="verifyEmpDetails" data-provider="Emp" finished-at="2024-07-18T13:37:07 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -989,4 +989,16 @@
       </class> <!-- com.pellisambandhalu.sanitytestcases.TC_001_Verify_the_functionality_ExcelData -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
+  <suite started-at="2024-07-18T13:37:13 IST" name="Suite (0)" finished-at="2024-07-18T13:37:17 IST" duration-ms="4743">
+    <groups>
+    </groups>
+    <test started-at="2024-07-18T13:37:13 IST" name="Test" finished-at="2024-07-18T13:37:17 IST" duration-ms="4743">
+      <class name="Tasks.FaceBookCreateAccountFunctionality">
+        <test-method signature="createFaceBook()[pri:0, instance:Tasks.FaceBookCreateAccountFunctionality@413d1baf]" started-at="2024-07-18T13:37:13 IST" name="createFaceBook" finished-at="2024-07-18T13:37:17 IST" duration-ms="4587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createFaceBook -->
+      </class> <!-- Tasks.FaceBookCreateAccountFunctionality -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (0) -->
 </testng-results>

@@ -47,7 +47,7 @@
         <configuration>
           <suiteXmlFiles>
             <suiteXmlFile>ReportGeneration.xml</suiteXmlFile>
-            
+            <suiteXMLFile>FaceBookCreation.xml</suiteXMLFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>

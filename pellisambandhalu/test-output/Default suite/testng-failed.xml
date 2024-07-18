@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.pellisambandhalu.sanitytestcases.TC_003_VerifyScreenShotFunctionality">
+      <class name="Tasks.FaceBookCreateAccountFunctionality">
         <methods>
-          <include name="verifyScreenShotFunctionality"/>
-          <include name="setUpBrowser"/>
+          <include name="createFaceBook"/>
         </methods>
-      </class> <!-- com.pellisambandhalu.sanitytestcases.TC_003_VerifyScreenShotFunctionality -->
+      </class> <!-- Tasks.FaceBookCreateAccountFunctionality -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
