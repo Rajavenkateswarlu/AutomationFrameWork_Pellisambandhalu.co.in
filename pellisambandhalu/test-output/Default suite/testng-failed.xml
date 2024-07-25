@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Tasks.FaceBookCreateAccountFunctionality">
+      <class name="com.pellisambandhalu.sanitytestcases.TC_006_VerifytheFunctinalityOfWindowHandlesInLibrary">
         <methods>
-          <include name="createFaceBook"/>
+          <include name="getNumberOfWindows"/>
         </methods>
-      </class> <!-- Tasks.FaceBookCreateAccountFunctionality -->
+      </class> <!-- com.pellisambandhalu.sanitytestcases.TC_006_VerifytheFunctinalityOfWindowHandlesInLibrary -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

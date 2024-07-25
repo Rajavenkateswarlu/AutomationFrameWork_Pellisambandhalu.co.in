@@ -4,6 +4,7 @@ import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Date;
 import java.util.List;
+import java.util.Set;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -95,5 +96,27 @@ public static void enterData(WebElement element, String data) {
 		wait.until(ExpectedConditions.presenceOfElementLocated(Locator));
 
 		return driver.findElement(Locator);
+	}
+	
+	// Switch to Multilple Windows
+	
+	public static int getNumberOfTabsORWindows(WebDriver driver ) {
+		
+		Set<String> windows = driver.getWindowHandles();
+		return windows.size();
+	}
+	
+	public static void moveToMultipleWindow(WebDriver driver , int TabNumber) {
+         
+		if(TabNumber <= getNumberOfTabsORWindows(driver)) {
+		Set<String> windows = driver.getWindowHandles();
+		
+		Object[] window = windows.toArray();
+		
+		String activeWindow = window[TabNumber].toString();
+		driver.switchTo().window(activeWindow);
+		}else {
+			System.out.print("Given tab Number is Invalid" + TabNumber);
+		}
 	}
 }
