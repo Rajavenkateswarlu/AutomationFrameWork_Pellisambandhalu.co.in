@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.pellisambandhalu.sanitytestcases.TC_006_VerifytheFunctinalityOfWindowHandlesInLibrary">
+      <class name="com.pellisambandhalu.sanitytestcases.TC_008_verifyFunctionalityOfJavaScriptExecutor">
         <methods>
-          <include name="getNumberOfWindows"/>
+          <include name="setUp"/>
+          <include name="jsFunctionality"/>
         </methods>
-      </class> <!-- com.pellisambandhalu.sanitytestcases.TC_006_VerifytheFunctinalityOfWindowHandlesInLibrary -->
+      </class> <!-- com.pellisambandhalu.sanitytestcases.TC_008_verifyFunctionalityOfJavaScriptExecutor -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

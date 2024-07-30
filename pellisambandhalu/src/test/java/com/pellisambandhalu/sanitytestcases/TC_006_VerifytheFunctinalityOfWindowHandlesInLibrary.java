@@ -51,12 +51,16 @@ public class TC_006_VerifytheFunctinalityOfWindowHandlesInLibrary {
 		wait.until(ExpectedConditions.visibilityOf(ele));
 
 		Utility.clickOnElementJs(driver, ele);
+		/*
 		Utility.moveToMultipleWindow(driver, 1);
 		System.out.println(driver.getTitle()); //SAP Partner Portal | welcome
 		Utility.moveToMultipleWindow(driver, 0);
 		
 		System.out.println(driver.getTitle());//SAP Partner Portal l Login
 		driver.close();
+		*/
+		Utility.moveToMultipleWindow(driver, 2);
+		Utility.moveToMultipleWindow(driver, 6);
 
 	}
 }
